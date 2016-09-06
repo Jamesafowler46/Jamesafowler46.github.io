@@ -2,7 +2,7 @@ body{
 	text-align: center;
 	font-family: arial;
 	font-size: 20px;
-	background-image: url(../images/firstpicture.jpg);
+	background-image: url(../Images/firstpicture.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -29,6 +29,7 @@ section{
 
 footer{
 	margin-top: 1cm;
+	font-size: 20px;
 }
 
 div{
@@ -52,6 +53,7 @@ h2{
 
 #slogan{
 	font-size: 40px;
+	-webkit-text-stroke: 1px black;
 }
 
 p.double{
