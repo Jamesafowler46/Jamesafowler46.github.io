@@ -1,61 +1,137 @@
-body{
-	text-align: center;
-	font-family: arial;
-	font-size: 20px;
-	background-image: url(../Images/firstpicture.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1920px, 1080px;
-	margin-top: 4cm;
-	color: #2650FF;
-}
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:600';
+@import 'https://fonts.googleapis.com/css?family=Courgette';
 
 *{
 	padding: 0;
 	margin: 0;
 }
 
-header{
-	font-size: 45px;
-	-webkit-text-stroke: 2px black;
-	color: #0089FF;
+body{
+	font-family: arial, serif;
+	font-size: 16px; /*1em=16px*/
+	text-align: center;
+	background-color: #000;
+	color: #000;
 }
 
-section{
-	font-size: 30px;
-	margin-top: 13.5cm;
+main{
+	background-image: url(../Images/firstpicture.jpg);
+	background-size: 120em 75em;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header{
+	-webkit-text-stroke: .1px black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 3em;
+	margin-top: 1em;
+	color: #04C4FF;
 }
 
 footer{
-	margin-top: 1cm;
-	font-size: 20px;
+	margin: 2em auto;
+	font-size: .6em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
 div{
-	margin-top: 1cm;
-	font-size: 35px;  
+	font-size: 1.5em;
+	background-color: #004B7F;
+	height:72em;
+	width:80em;
+	margin: auto;
 }
 
-ul{
-	text-decoration: none;
-}
-
-a{
-	font-size: 30px;
+h1, 
+h2, 
+h3, 
+h4{
+	-webkit-text-stroke: .1px black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2em;
+	color: #04C4FF;
 }
 
 h2{
-	font-size: 40px;
-	-webkit-text-stroke: 1px black;
-	color: #0089FF;
+	font-size: 3em;
+}
+
+h3{
+	font-size: 3em;
+	margin-bottom: 7em;
+}
+
+h4{
+	font-size: 3em;
+}
+
+p{
+	margin: 1em auto; 
+	font-family: 'Crimson Text', serif;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+a{
+	margin: 0 .5em;
+	color: #000;
+}
+
+hr{
+	border-color: black;
+}
+
+img{
+    width: 39.8em;
+    height: auto;
+}
+
+ul{
+	font-family: 'Crimson Text', serif;
+	font-size: 2em;
+}
+
+.camaro{
+	background-color: black;
+	color: #FFF
+}
+
+#firstparagraph{
+	margin-top: 23em;
+	font-size: 1.5em;
+}
+
+#secondparagraph{
+	font-size: 2em;
+	background-image: url(../Images/MH-bridge.png);
+	background-size: 1920px 1150px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #slogan{
-	font-size: 40px;
 	-webkit-text-stroke: 1px black;
+	font-family: 'Courgette', cursive;
+	font-size: 3em;
+	font-weight: 500;
+	color: #04C4FF;
 }
 
-p.double{
-	border-style: double;
+#chevyemblem1{
+	width: 13em;
+	height: auto; 
+}
+
+#chevyemblem2{
+	width: 13em;
+	height: auto;
+}
+
+#Nightparking{
+	background-position: center;
+	width: 50em;
+	height: auto;
 }
