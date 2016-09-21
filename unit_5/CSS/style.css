@@ -17,6 +17,9 @@ body{
 }
 
 main{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 	background-image: url(../Images/firstpicture.jpg);
 	background-position: center;
 	background-size: 120em 75em;
@@ -30,19 +33,26 @@ header{
 	color: #04C4FF;
 }
 
-footer{
-	margin: 2em auto;
-	font-size: .6em;
+footer{	
+	font-size: 1.5em;
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	padding: 2em 0;
+	
+	background-color:  #FF957E;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 section{
-
+	background-color: #FFE2B8;
 }
 
 div{
 	box-sizing: border-box;
+
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
 }
 
 h1, 
@@ -53,6 +63,10 @@ h4{
 	font-family: 'Libre Baskerville', serif;
 	font-size: 2em;
 	color: #04C4FF;
+
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
 }
 h1{
 	font-size: 5em;
@@ -77,9 +91,16 @@ p{
 	line-height: 1.5em;
 }
 
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+}
+
 a{
-	margin: 0 .5em;
+	margin: 0 2em;
 	color: #000;
+	font-weight: 500;
 }
 
 hr{
@@ -96,6 +117,11 @@ ul{
 	font-size: 2em;
 }
 
+#wrapper{
+	width: 120em;
+	height: auto;
+	margin: 0 auto;
+}
 
 #firstparagraph{
 	margin-top: 25em;
@@ -109,8 +135,8 @@ ul{
 }
 
 #thirdparagraph{
-	font-size: 1.5em;
-	padding: 2em;
+	font-size: 2em;
+	padding: 1em;
 }
 
 #secondbackgroundimg{
@@ -120,14 +146,14 @@ ul{
 	background-position: center;
 }
 
-#camaro{
-	background-color: #004B7F;;
-	height:95em;
+/*#camaro{
+	background-color: #007A7A;	
+	height:97em;
 	width:120em;
 	margin: 0 auto;
 	margin-bottom: 3em;
 }
-
+*/
 #Nightparking{
 	background-position: center;
 	width: 50em;
@@ -141,14 +167,3 @@ ul{
 	font-weight: 500;
 	color: #04C4FF;
 }
-
-/*#chevyemblem1{
-	width: 13em;
-	height: auto; 
-}
-
-#chevyemblem2{
-	width: 13em;
-	height: auto;
-}
-*/
