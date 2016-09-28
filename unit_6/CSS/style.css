@@ -1,0 +1,194 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text:600';
+@import 'https://fonts.googleapis.com/css?family=Courgette';
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial, serif;
+	font-size: 12px; /*1em=16px*/
+	text-align: center;
+	background-color: #222;
+	color: #000;
+}
+
+header{
+	-webkit-text-stroke: .1px black;
+	font-family: 'Libre Baskerville', serif;
+}
+
+footer{	
+	padding: 1em;
+	margin-bottom: 2em;
+	background-color: #83E8CC;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+
+p{ 	
+	font-family: 'Crimson Text', serif;
+	line-height: 1.5em;
+	font-size: 2em;
+	margin: 0 auto;
+	width: 20em;
+}
+
+
+h1, 
+h2, 
+h3, 
+h4{
+	-webkit-text-stroke: .1px black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2em;
+	color: #04C4FF;
+}
+
+h1{
+	font-size: 5em;
+	padding-top: 1em;
+}
+
+h2{
+	font-size: 3em;
+}
+
+h3{
+	font-size: 4em;
+	margin-bottom: 7em;
+	padding-top: 1em;
+}
+
+h4{
+	font-size: 4em;
+	padding: 1em;
+}
+
+nav{
+    padding: 20px;
+	background-color: #E8C66A;
+	border: 1px black solid;
+}
+
+a{	
+	color: #000;
+	margin: 0 2em;
+	font-weight: 500;
+	letter-spacing: 3px;
+	text-decoration: none;
+}
+
+a:hover{
+	padding: 1em;
+	color: #83E8CC;
+	background-color: #007A7A;
+} 
+
+hr{
+	border-color: black;
+}
+
+img{
+    width: 55em;
+    height: auto;
+}
+
+ul{
+	font-family: 'Crimson Text', serif;
+	font-size: 2em;
+	padding-bottom: .5em
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#wrapper{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+#two_column {
+    background-color: #2D7F5D;
+    /*border: 1px black solid;*/
+    padding: 20px;
+    width: 120em;
+    margin: auto;
+    color: #fff;
+}
+
+#two_column img{
+	width: 90%;
+}
+
+#left {
+    /*background-color: red;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+#right {
+    /*background-color: blue;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: right;   
+    width: 50%;
+}
+
+#firstparagraph{
+	margin-top: 35em;
+}
+
+#secondparagraph{
+	margin-top: 40em;
+	padding: 2em;
+}
+
+#thirdparagraph{
+	padding: 2.5em;
+}
+
+#firstbackground{
+	background-image: url(../Images/firstpicture.jpg);
+	background-position: center;
+	background-size: 120em 77em;
+	background-repeat: no-repeat;
+}
+#secondbackground{
+	background-image: url(../Images/MH-bridge.png);
+	background-size: 120em 75em;	
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#camaro{
+	background-color: #007A7A;	
+	height:100em;
+	width:120em;
+	margin: 0 auto;
+	margin-bottom: 3em;
+}
+
+#slogan{
+	-webkit-text-stroke: 1px black;
+	font-family: 'Courgette', cursive;
+	font-size: 3em;
+	font-weight: 500;
+	color: #04C4FF;
+}
