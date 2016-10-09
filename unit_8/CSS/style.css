@@ -173,3 +173,33 @@ ul{
     clear: both;
     height: 0;
 }
+
+@media only screen and (max-width: 2400px) {
+	body {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 1988px) {
+	body {
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width: 1535px) {
+	body {
+		font-size: 9px;
+	}
+}
+
+@media only screen and (max-width: 1375px) {
+	body {
+		font-size: 7px;
+	}
+}
+
+@media only screen and (max-width: 974px) {
+	body {
+		font-size: 5px;
+	}
+}
