@@ -212,9 +212,9 @@ ul{
 	}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 320px) {
 	body {
-		font-size: 5px;
+		font-size: 4px;
 	}
 	
 	#wrapper{
