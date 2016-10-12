@@ -227,14 +227,23 @@ ul{
 		width: 100%;
 	}
 
-	h1,h3{
+	h1{
 		font-size: 6em;
 	}
 
 	h2{
-		font-size: 4em;
+		font-size: 2em;
 	}
 	#firstparagraph{
-		font-size: 1.2em;
+		font-size: 1em;
+	}
+
+	#camaro img{
+		width: 100%;
+	}
+
+	#thirdparagraph{
+		font-size:1.5em;
+		width: 100%;
 	}
 }
