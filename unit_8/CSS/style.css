@@ -180,13 +180,7 @@ ul{
 	}
 }
 
-@media only screen and (max-width: 1988px) {
-	body {
-		font-size: 11px;
-	}
-}
-
-@media only screen and (max-width: 1535px) {
+@media only screen and (max-width: 1860px) {
 	body {
 		font-size: 9px;
 	}
@@ -194,25 +188,16 @@ ul{
 
 @media only screen and (max-width: 1375px) {
 	body {
-		font-size: 7px;
-	}
-
-	#wrapper{
-	width: 75%;
-	}
-}
-
-@media only screen and (max-width: 974px) {
-	body {
 		font-size: 5px;
 	}
 
 	#wrapper{
-	width: 95%;
+	width: 100%;
+	margin: 0;
 	}
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 520px) {
 	body {
 		font-size: 4px;
 	}
