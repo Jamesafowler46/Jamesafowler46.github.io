@@ -9,10 +9,10 @@
 }
 
 body{
-	font-family: arial, serif;
 	font-size: 16px; /*1em=16px*/
-	text-align: center;
+	font-family: arial, serif;
 	background-color: #222;
+	text-align: center;
 	color: #000;
 }
 
@@ -31,15 +31,15 @@ p{
 
 
 h1, h2, h3, h4{
-	-webkit-text-stroke: .1px black;
 	font-family: 'Libre Baskerville', serif;
+	-webkit-text-stroke: .1px black;
 	font-size: 2em;
 	color: #04C4FF;
 }
 
 h1{
-	font-size: 5em;
 	padding-top: 1%;
+	font-size: 5em;
 }
 
 h2{
@@ -47,9 +47,9 @@ h2{
 }
 
 h3{
-	font-size: 4em;
 	margin-bottom: 7%;
 	padding-top: 1%;
+	font-size: 4em;
 }
 
 h4{
@@ -58,23 +58,23 @@ h4{
 }
 
 nav{
-    padding: 1.4%;
-	border: 1px black solid;
 	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 1.4%;
 }
 
 a{	
-	color: #000;
-	margin: 0 2%;
+	text-decoration: none;
 	letter-spacing: .5em;
 	font-weight: 500;
-	text-decoration: none;
+	margin: 0 2%;
+	color: #000;
 }
 
 a:hover{
-	padding: 1%;
-	color: #83E8CC;
 	background-color: #007A7A;
+	color: #83E8CC;
+	padding: 1%;
 } 
 
 img{
@@ -88,17 +88,17 @@ ul{
 }
 
 #wrapper{
-	width: 55%;
-	height: auto;
 	margin: 0 auto;
 	margin-top: 1%;
+	height: auto;
+	width: 55%;
 }
 
 #slogan{
 	-webkit-text-stroke: .1px black;
 	font-family: 'Courgette', cursive;
-	font-size: 3em;
 	font-weight: 500;
+	font-size: 3em;
 	color: #04C4FF;
 }
 
@@ -127,14 +127,11 @@ ul{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#fog{
-	
-}
 
 #camaro{
 	background-color: #007A7A;	
-	margin: 0 auto;
 	margin-bottom: 2%;
+	margin: 0 auto;
 	height: 90%;
 	width: 100%;
 }
@@ -146,8 +143,8 @@ ul{
 
 #two_column{
     background-color: #2D7F5D;
-    width: 100%;
     margin: auto;
+    width: 100%;
     color: #fff;
 }
 
@@ -156,8 +153,8 @@ ul{
 }
 
 #left {
-    padding: .3%;
     padding-bottom: 5.3%;
+    padding: .3%;
     float: left;
     width: 50%;
 }
