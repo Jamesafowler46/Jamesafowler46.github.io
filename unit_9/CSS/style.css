@@ -96,6 +96,7 @@ ul{
 }
 
 #slogan{
+	-webkit-text-stroke: .1px black;
 	font-family: 'Courgette', cursive;
 	font-size: 3em;
 	font-weight: 500;
